@@ -3,6 +3,7 @@ layout: single
 title: "高等代数"
 permalink: /notes/advanced-algebra/
 author_profile: true
+modified: 2026-09-28
 ---
 ## 1. 行列式
 
