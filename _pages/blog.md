@@ -9,7 +9,7 @@ This page collects my study notes and technical explorations in mathematics and 
 
 ## Mathematics
 
-### [Advanced Algebra](/notes/Advanced_Algebra.md)
+### [Advanced Algebra](/notes/advanced-algebra/)
 
 Notes on core concepts, proofs, and problem-solving methods in advanced algebra. *(In updating)*
 
