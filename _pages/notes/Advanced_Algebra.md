@@ -180,15 +180,34 @@ $$
 
 矩阵计算
 
-$
-\begin{aligned}
-A+B &= B+A, \\
-(A+B)+C &= A+(B+C), \\
-O+A &= A+O=A, \\
-A+(-A) &= O, \\
-1\cdot A &= A, \\
-k(A+B) &= kA+kB, \\
-(k+l)A &= kA+lA, \\
-(kl)A &= k(lA).
-\end{aligned}
-$
+$$
+A+B=B+A
+$$
+
+$$
+(A+B)+C=A+(B+C)
+$$
+
+$$
+O+A=A+O=A
+$$
+
+$$
+A+(-A)=O
+$$
+
+$$
+1\cdot A=A
+$$
+
+$$
+k(A+B)=kA+kB
+$$
+
+$$
+(k+l)A=kA+lA
+$$
+
+$$
+(kl)A=k(lA)
+$$
