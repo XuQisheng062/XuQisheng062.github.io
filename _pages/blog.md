@@ -5,9 +5,16 @@ permalink: /blog/
 author_profile: true
 ---
 
-This page collects my course notes, technical explorations, and research-related study notes.
+This page collects my study notes and technical explorations in mathematics and deep learning.
 
-## Planned notes
+## Mathematics
 
-- **CME 296 Course Notes** — structured notes, key concepts, and selected derivations from the course. *(In preparation)*
-- **A Brief History of Reinforcement Learning** — a conceptual timeline of major ideas, methods, and milestones in reinforcement learning. *(In preparation)*
+### [Advanced Algebra](\notes\Advanced_Algebra.md)
+
+Notes on core concepts, proofs, and problem-solving methods in advanced algebra. *(In updating)*
+
+## Deep Learning
+
+### CME 296 Notes
+
+Structured course notes covering key concepts, mathematical derivations, and selected topics from CME 296. *(In preparation)*
