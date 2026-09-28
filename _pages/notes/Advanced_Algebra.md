@@ -24,22 +24,22 @@ $M_{ij}$ 是划去 $A$ 的第 $i$ 行、第 $j$ 列后得到的行列式。
 递归定义：
 
 $$
-\det(A) = \sum_{i=1}^{n}(-1)^{i+1}a_{i1}M_{i1}
+\begin{vmatrix} A \end{vmatrix} = \sum_{i=1}^{n}(-1)^{i+1}a_{i1}M_{i1}
 = a_{11}M_{11}-a_{21}M_{21}+\cdots+(-1)^{n+1}a_{n1}M_{n1}.
 $$
 
 代数余子式
 
-$\det(A)$ 的第 $(i,j)$ 个元素的代数余子式为 $A_{ij}=(-1)^{i+j}M_{ij}$。
+$\begin{vmatrix} A \end{vmatrix}$ 的第 $(i,j)$ 个元素的代数余子式为 $A_{ij}=(-1)^{i+j}M_{ij}$。
 
 代入上式得（ $i$ 与 $j$ 对称）
 
 $$
-\det(A) = a_{1j}A_{1j} + \cdots + a_{ij}A_{ij} + \cdots + a_{nj}A_{nj}
+\begin{vmatrix} A \end{vmatrix} = a_{1j}A_{1j} + \cdots + a_{ij}A_{ij} + \cdots + a_{nj}A_{nj}
 $$
 
 $$
-\det(A) = \sum_{(k_1,\ldots,k_n)\in S_n}(-1)^{N(k_1\cdots k_n)}
+\begin{vmatrix} A \end{vmatrix} = \sum_{(k_1,\ldots,k_n)\in S_n}(-1)^{N(k_1\cdots k_n)}
 a_{k_1 1}a_{k_2 2}\cdots a_{k_n n}
 $$
 
@@ -49,7 +49,7 @@ $$
 
 ②若行列式的某一行/列为 $0$，则 $\det(A)=0$；
 
-③行列式的某一行（列）乘以 $c$，行列式的值也乘以 $c$；特别地，$\det(cA)=c^n\det(A)$。
+③行列式的某一行（列）乘以 $c$，行列式的值也乘以 $c$；特别地，$\begin{vmatrix} cA \end{vmatrix}=c^n\begin{vmatrix} A \end{vmatrix}$。
 
 ④对换行列式的两行或两列，行列式变号；
 
@@ -83,9 +83,9 @@ a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix}
 $$
 
-⑦行/列 $\times c$ 加减到另一行/列上，$\det(A)$ 不变
+⑦行/列 $\times c$ 加减到另一行/列上，$\begin{vmatrix} A \end{vmatrix}$ 不变
 
-⑧$\det(A^T)=\det(A)$
+⑧$\begin{vmatrix} A^T \end{vmatrix}=\begin{vmatrix} A \end{vmatrix}$
 
 Cramer 性质：
 
@@ -99,7 +99,7 @@ a_{1n}x_{1}+a_{2n}x_{2}+\cdots +a_{nn}x_{n}=b_{n}\\
 $$
 
 $$
-\det(A) =
+\begin{vmatrix} A \end{vmatrix} =
 \begin{vmatrix}
 a_{11} & a_{12} & \cdots & a_{1n} \\
 a_{21} & a_{22} & \cdots & a_{2n} \\
@@ -107,7 +107,7 @@ a_{21} & a_{22} & \cdots & a_{2n} \\
 a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix}
 ,
-\det(A_i)=\begin{vmatrix}
+\begin{vmatrix} A_i \end{vmatrix}=\begin{vmatrix}
 a_{11} & a_{12} & \cdots & b_{1} &\cdots  & a_{1n} \\
 a_{21} & a_{22} & \cdots& b_{2} & \cdots & a_{2n} \\
 \vdots & \vdots & \vdots &\vdots & \ddots & \vdots \\
@@ -116,7 +116,7 @@ a_{n1} & a_{n2} & \cdots& a_{12} & \cdots & a_{nn}
 $$
 
 $$
-x_i=\frac{\det(A_i)}{\det(A)}
+x_i=\frac{\begin{vmatrix} A_i \end{vmatrix}}{\begin{vmatrix} A \end{vmatrix}}
 $$
 
 Vandermonde 行列式
@@ -140,12 +140,12 @@ $$
 A &M \\
 O &B
 \end{vmatrix}
-=\det(A)\det(B),\qquad
+=\begin{vmatrix} A \end{vmatrix}\begin{vmatrix} B \end{vmatrix},\qquad
 \begin{vmatrix}
 A &O \\
 M &B
 \end{vmatrix}
-=\det(A)\det(B)
+=\begin{vmatrix} A \end{vmatrix}\begin{vmatrix} B \end{vmatrix}
 $$
 
 Laplace 定理：
@@ -180,7 +180,7 @@ $$
 
 矩阵计算
 
-$$
+$
 \begin{aligned}
 A+B &= B+A, \\
 (A+B)+C &= A+(B+C), \\
@@ -191,4 +191,4 @@ k(A+B) &= kA+kB, \\
 (k+l)A &= kA+lA, \\
 (kl)A &= k(lA).
 \end{aligned}
-$$
+$
